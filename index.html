@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-     <title>PROJECT NAME</title>
+     <title>DOM Play</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/forms.css">
+  <style>
+    .potato{
+      /*background-color:yellow;*/
+    }
+
+    #play span{
+      /*background-color:green;*/
+    }
+
+  </style>
  </head>
  <body>
      <header>
-     <h1 class="page-header">SITE NAME</h1>
+     <h1 class="page-header">DOM Play</h1>
         <nav class="topnav" id="myTopnav">
             <a href="index.html" class="active">Home</a>
-            <a href="#">LINK</a>
+            <a href="https://www.dailyscript.com/scripts/toy_story.html">Toy Story Script</a>
             <a href="#">LINK</a>
             <a href="#">LINK</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
@@ -21,12 +31,15 @@
      </header>
      
   <main class="wrapper"> 
-    <h2 class="subheader">PROJECT NAME</h2>
-    <p>Clever content goes here</p>
-    <p>Clever content goes here</p>
-    <p>Clever content goes here</p>
-
-    </footer>
+    <h2 class="subheader">DOM Play</h2>
+    <div id="play">
+       <p><span data-actor="hamm">Hamm: Oh, that is disgusting.</span></p>
+       <p><span data-actor="potato">Mr. Potato Head: Murderer!</span></p>
+       <p><span data-actor="woody">Woody: No! No, no, no, no!</span></p>
+       <p><span data-actor="potato">Mr. Potato Head: You murdering dog!</span></p>
+       <p><span data-actor="woody">Woody: No, it's not what you think, I swear!</span></p>
+       <p><span data-actor="potato">Mr. Potato Head: Save it for the jury. I hope Sid pulls your voice-box out, ya creep!</span></p>
+    </div>
     <footer>
       <p><small>&copy; 2021-<span id="this-year"></span> by 
           Kathy Duong, All Rights Reserved ~ 
